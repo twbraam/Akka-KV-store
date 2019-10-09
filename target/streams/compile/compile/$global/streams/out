@@ -1,12 +1,37 @@
 [0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/project/target/.sbt-compilation-infos/kvstore-compile/.sbt-idea-lock ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:67:23: discarded non-Unit value[0m
-[0m[[0m[33mwarn[0m] [0m[0m      persisted.pipeTo(self)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:75:23: discarded non-Unit value[0m
-[0m[[0m[33mwarn[0m] [0m[0m      persisted.pipeTo(self)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:110:23: discarded non-Unit value[0m
-[0m[[0m[33mwarn[0m] [0m[0m        persist.pipeTo(self)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:68:23: value += is not a member of scala.collection.immutable.Map[Long,(akka.actor.ActorRef, kvstore.Persistence.Persist)][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: Replica.this.tryingToPersist = Replica.this.tryingToPersist.+(id.$minus$greater(x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m      tryingToPersist += (id -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:68:30: too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m      tryingToPersist += (id -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:75:23: value += is not a member of scala.collection.immutable.Map[Long,(akka.actor.ActorRef, kvstore.Persistence.Persist)][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: Replica.this.tryingToPersist = Replica.this.tryingToPersist.+(id.$minus$greater(x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m      tryingToPersist += (id -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:75:30: too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m      tryingToPersist += (id -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:110:22: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m    persistTry.pipeTo(self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:131:25: value += is not a member of scala.collection.immutable.Map[Long,(akka.actor.ActorRef, kvstore.Persistence.Persist)][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: Replica.this.tryingToPersist = Replica.this.tryingToPersist.+(seq.$minus$greater(x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m        tryingToPersist += (seq -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:131:33: too many arguments for method ->: (y: (akka.actor.ActorRef, kvstore.Persistence.Persist))(Long, (akka.actor.ActorRef, kvstore.Persistence.Persist))[0m
+[0m[[0m[31merror[0m] [0m[0m        tryingToPersist += (seq -> (x, persist))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replicator.scala:53:15: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m      x.pipeTo(self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
 [0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/project/target/.sbt-compilation-infos/kvstore-compile/.sbt-idea-lock.[0m

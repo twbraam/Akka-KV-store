@@ -44,6 +44,7 @@ class Replica(val arbiter: ActorRef, persistenceProps: Props) extends Actor with
   var replicators = Set.empty[ActorRef]
 
   var tryingToPersist = Map.empty[Long, (ActorRef, Persist)]
+  var persisted = Set.empty[Long]
 
 
   var mySeq: Long = 0L
@@ -61,16 +62,17 @@ class Replica(val arbiter: ActorRef, persistenceProps: Props) extends Actor with
 
     case Insert(key: String, value: String, id: Long) =>
       kv += (key -> value)
-      val persisted = (persistence ? Persist(key, Some(value), id)).mapTo[Persisted]
-      tryingToPersist += (id -> (sender, Persist(key, Some(value), id)))
-      persisted.pipeTo(self)
+      val persist = Persist(key, Some(value), id)
+      persist_yo(persist)
+      val x = sender()
+      tryingToPersist += (id -> (x, persist))
 
     case Remove(key: String, id: Long) =>
       kv -= key
-      implicit val timeout: Timeout = Timeout(100.millis)
-      val persisted = (persistence ? Persist(key, None, id)).mapTo[Persisted]
-      tryingToPersist += (id -> (sender, Persist(key, None, id)))
-      persisted.pipeTo(self)
+      val persist = Persist(key, None, id)
+      persist_yo(persist)
+      val x = sender()
+      tryingToPersist += (id -> (x, persist))
 
     case Get(key: String, id: Long) =>
       sender ! GetResult(key, kv.get(key), id)
@@ -96,11 +98,18 @@ class Replica(val arbiter: ActorRef, persistenceProps: Props) extends Actor with
         case toomany if toomany > 10 =>
           restarts = 0; Restart
         case n =>
-          restarts = tryingToPersist.foreach(x => )
+          restarts += 1
+          tryingToPersist.values.foreach(x => persist_yo(x._2))
+          Resume
       }
   }
 
-  def persist_yo()
+  def persist_yo(persist: Persist): Unit = {
+    implicit val timeout: Timeout = Timeout(100.millis)
+    val persistTry = (persistence ? persist).mapTo[Persisted]
+    persistTry.pipeTo(self)
+
+  }
 
   /* TODO Behavior for the replica role. */
   val replica: Receive = LoggingReceive {
@@ -116,25 +125,17 @@ class Replica(val arbiter: ActorRef, persistenceProps: Props) extends Actor with
           kv -= key
       }
         mySeq += 1
-        implicit val timeout: Timeout = Timeout(100.millis)
-        val persist = (persistence ? Persist(key, valueOption, seq)).mapTo[Persisted]
-
-        afterPersisted += (seq -> sender)
-        persist.pipeTo(self)
+        val persist: Persist = Persist(key, valueOption, seq)
+        persist_yo(persist)
+        val x = sender()
+        tryingToPersist += (seq -> (x, persist))
       }
       else if (persisted.contains(seq)) sender ! SnapshotAck(key, seq)
     case Persisted(key: String, seq: Long) =>
       persisted += seq
       log.info(s"Persisted: key: $key, seq: $seq")
-      afterPersisted(seq) ! SnapshotAck(key, seq)
-      afterPersisted -= seq
-
-    case Failure(ex) =>
-      ex match {
-        case _: AskTimeoutException =>
-          log.info(s"timeout received")
-          acks.foreach { x => self ! x._2._2 }
-      }
+      tryingToPersist(seq)._1 ! SnapshotAck(key, seq)
+      tryingToPersist -= seq
   }
 }
 
