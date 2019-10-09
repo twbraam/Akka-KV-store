@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/project/target/.sbt-compilation-infos/kvstore-compile/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:67:23: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m      persisted.pipeTo(self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:75:23: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m      persisted.pipeTo(self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/src/main/scala/kvstore/Replica.scala:110:23: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m        persist.pipeTo(self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/thomaswiebebraan/Documents/IntelliJ/Coursera/5. Programming Reactive Systems/kvstore/project/target/.sbt-compilation-infos/kvstore-compile/.sbt-idea-lock.[0m
