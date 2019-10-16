@@ -1,11 +1,12 @@
 package kvstore
 
-import akka.actor.{Props, Actor}
+import akka.actor.{Actor, Props}
+
 import scala.util.Random
-import java.util.concurrent.atomic.AtomicInteger
 
 object Persistence {
   case class Persist(key: String, valueOption: Option[String], id: Long)
+  case class PersistRetry(key: String, valueOption: Option[String], id: Long)
   case class Persisted(key: String, id: Long)
 
   class PersistenceException extends Exception("Persistence failure")
@@ -16,7 +17,7 @@ object Persistence {
 class Persistence(flaky: Boolean) extends Actor {
   import Persistence._
 
-  def receive = {
+  def receive: PartialFunction[Any, Unit] = {
     case Persist(key, _, id) =>
       if (!flaky || Random.nextBoolean()) sender ! Persisted(key, id)
       else throw new PersistenceException

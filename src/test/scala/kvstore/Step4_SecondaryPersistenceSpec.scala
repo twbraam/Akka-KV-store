@@ -20,6 +20,12 @@ trait Step4_SecondaryPersistenceSpec
     val secondary = system.actorOf(Replica.props(arbiter.ref, probeProps(persistence)), "step4-case1-secondary")
     val client = session(secondary)
 
+    println(arbiter)
+    println(persistence)
+    println(replicator)
+    println(secondary)
+    println(client)
+
     arbiter.expectMsg(Join)
     arbiter.send(secondary, JoinedSecondary)
 
@@ -27,14 +33,17 @@ trait Step4_SecondaryPersistenceSpec
 
     replicator.send(secondary, Snapshot("k1", Some("v1"), 0L))
     val persistId = persistence.expectMsgPF() {
-      case Persist("k1", Some("v1"), id) => id
+      case Persist("k1", Some("v1"), id) => println(s"MESSAGE RECEIVED FROM: $id"); id
     }
 
     withClue("secondary replica should already serve the received update while waiting for persistence: ") {
       client.get("k1") should ===(Some("v1"))
     }
 
+
     replicator.expectNoMessage(500.milliseconds)
+
+    println(persistence.lastSender)
 
     persistence.reply(Persisted("k1", persistId))
     replicator.expectMsg(SnapshotAck("k1", 0L))

@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/reactive-kvstore_2.11-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/src/main/scala/kvstore/Persistence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/src/main/scala/kvstore/Replicator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/src/main/scala/kvstore/Replica.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/src/main/scala/kvstore/Arbiter.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

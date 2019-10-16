@@ -1,0 +1,163 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/reactive-kvstore_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Get$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Get$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Replicate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Replicate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Replicated$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Replicated$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$GetResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$GetResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$props$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$props$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationReply.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationReply.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$3$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Snapshot$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Snapshot$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$GetResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$GetResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$JoinedPrimary$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$JoinedPrimary$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Remove$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Remove$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationFailed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationFailed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$ReplicateRetry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$ReplicateRetry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$Persisted.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$Persisted.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$Persist.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$Persist.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Snapshot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Snapshot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$PersistenceException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$PersistenceException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$$anonfun$receive$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$$anonfun$receive$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$Persisted$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$Persisted$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$1$$anonfun$applyOrElse$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$1$$anonfun$applyOrElse$9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$Persist$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$Persist$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$PersistRetry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$PersistRetry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Insert.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Insert.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationAck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationAck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Replicated.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Replicated.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$2$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$Join$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$Join$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$rep$1$$anonfun$applyOrElse$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$11.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$12$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$12$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$Replicas$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$Replicas$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$12.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$3$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$3$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationAck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationAck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$props$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$props$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$SnapshotAck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$SnapshotAck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$replicate$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$replicate$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$ReplicateRetry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$ReplicateRetry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$SnapshotAck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$SnapshotAck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Get.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Get.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$10.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Remove.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Remove.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Insert$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Insert$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$leader$1$$anonfun$applyOrElse$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$$anonfun$rep$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$$anonfun$rep$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$Replicas.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$Replicas.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$Operation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$Operation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replica$OperationFailed$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replica$OperationFailed$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$Replicate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$Replicate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Persistence$PersistRetry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Persistence$PersistRetry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Arbiter$JoinedSecondary$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Arbiter$JoinedSecondary$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/thomas/IdeaProjects/Coursera/5. Programming Ractive Systems/Akka-KV-store/target/scala-2.11/classes/kvstore/Replicator$$anonfun$receive$1$$anonfun$applyOrElse$3.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
